@@ -2,7 +2,7 @@
 
 A forensic extraction tool for recovering MEGAsync exfiltration evidence from unallocated disk space. Processes X-Ways Forensics search hit exports and produces structured CSV output suitable for Excel workbook assembly and presentation to legal counsel.
 
-**Background:** This tool was developed during an active incident response engagement to recover MEGA transfer evidence in the absence of application logs. A full write-up of the methodology is available on [LinkedIn](https://www.linkedin.com/). <!-- update with your post URL -->
+**Background:** This tool was developed during an active incident response engagement to recover MEGA transfer evidence in the absence of application logs. A full write-up of the methodology is available on [LinkedIn](https://www.linkedin.com/pulse/when-log-gone-recovering-megasync-exfiltration-evidence-weston-watson-xxlfe).
 
 ---
 
