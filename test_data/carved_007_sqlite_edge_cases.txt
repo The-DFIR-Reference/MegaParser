@@ -1,0 +1,14 @@
+SQLite format 3   @                                                                   
+  CREATE TABLE sync_data (id INTEGER PRIMARY KEY, local_path TEXT, node_handle TEXT, sync_state INTEGER);
+  CREATE INDEX idx_local ON sync_data(local_path);
+  table_version=7  page_size=4096  pages_used=312
+<<<<SLACKSPACE_BOUNDARY>>>>
+05/17-19:26:01.112301 4852 DBG  resolving gfs244n132.userstorage.mega.co.nz returned 203.0.113.45 [net.cpp:441]
+05/17-19:26:14.334900 4852 DBG  Verifying upload: C:\Users\jsmith\Documents\Müller_Vertrag_2024.pdf [transfer.cpp:1089] 05/17-19:26:14.447334 4852 DBG  [FileFingerprint::genfingerprint] FA debug fp: 614400:1715978001:f6071829345678:1 [filefingerprint.cpp:88]
+05/17-19:26:14.461001 4852 DBG  CURLMSG_DONE gfs244n132.userstorage.mega.co.nz - 203.0.113.45 result=0 [http.cpp:774]
+05/17-19:26:38.112984 4852 DBG  Transfer (UPLOAD) finished with error: Access denied File: staging_archive.zip [megaapi_impl.cpp:5534]
+05/17-19:26:55.334812 4852 DBG  Verifying upload: C:\Users\jsmith\Documents\Incomplete_Truncat
+[HARD TRUNCATION - no closing transfer.cpp anchor - must NOT match _PAT_VERIFIED]
+05/17-19:27:01.441002 4852 DBG  transfer->name = C:\Users\jsmith\Documents\Encrypted_Backup.7z [megaapi_impl.cpp:5502] finished with error -9 [megaapi_impl.cpp:5518]
+05/17-19:27:14.112984 4852 DBG  MegaRecursiveOperation finished subtransfers: 47 of 47 [megaapi_impl.cpp:8821]
+05/17-19:27:14.221002 4852 DBG  MEGAsync process teardown initiated [megaapp.cpp:2201]

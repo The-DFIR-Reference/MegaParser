@@ -1,0 +1,15 @@
+MSCF        D        (   ,                         Q   i Cabinet.exe
+signature=0x4d534346  cabinet_version=3  num_folders=1  num_files=8
+num_cabinets=1  reserved_fields=0  set_id=0x1234  cabinet_index=0
+folder_type=0x0001 (MSZIP)  folder_reserved=0  num_datablocks=142
+filename: Windows10.0-KB5034441-x64.cab  filesize: 89234471
+<<<<SLACKSPACE_BOUNDARY>>>>
+05/17-19:09:41.887301 4852 DBG  Verifying upload: C:\Users\jsmith\Documents\Finance\Q1_Budget_2024.xlsx [transfer.cpp:1089] 05/17-19:09:41.990112 4852 DBG  [FileFingerprint::genfingerprint] FA debug fp: 2457600:1715977781:a3f9c2e1d8b74056:1 [filefingerprint.cpp:88]
+05/17-19:10:14.229388 4852 DBG  Verifying upload: C:\Users\jsmith\Documents\Finance\Q2_Budget_2024.xlsx [transfer.cpp:1089] 05/17-19:10:14.341209 4852 DBG  [FileFingerprint::genfingerprint] FA debug fp: 3014656:1715977894:b7e2d1f0a9c83412:1 [filefingerprint.cpp:88]
+05/17-19:15:11.441100 4852 DBG  Verifying upload: C:\Users\jsmith\Documents\HR\Employee_Salaries_2024.xlsx [transfer.cpp:1089] 05/17-19:15:11.554334 4852 DBG  [FileFingerprint::genfingerprint] FA debug fp: 1703936:1715977911:f1a2b3c4d5e60987:1 [filefingerprint.cpp:88]
+05/17-19:15:11.568001 4852 DBG  CURLMSG_DONE gfs244n132.userstorage.mega.co.nz - 203.0.113.45 result=0 [http.cpp:774]
+05/17-19:15:38.003001 4852 DBG  Verifying upload: C:\Users\jsmith\Documents\HR\Org_Chart_Confidential.v
+[FRAGMENT TRUNCATED - context window boundary - no closing anchor present - must NOT match]
+05/17-19:16:01.113100 4852 DBG  asset loaded qrc:/mega/icon@2x.png [megaapp.cpp:334]
+05/17-19:16:01.113200 4852 DBG  skin loaded qrc:/mega/style@3x.svg [megaapp.cpp:341]
+05/17-19:16:04.221984 4852 DBG  MegaRecursiveOperation finished subtransfers: 12 of 47 [megaapi_impl.cpp:8821]

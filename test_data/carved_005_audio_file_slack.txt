@@ -1,0 +1,11 @@
+RIFF    WAVEfmt     D   data
+[binary audio header padding - slack space follows cluster boundary]
+<<<<SLACKSPACE_BOUNDARY>>>>
+05/17-19:22:29.334900 4852 DBG  Verifying upload: C:\Users\jsmith\Desktop\Acquisition_Strategy_CONFIDENTIAL.pptx [transfer.cpp:1089] 05/17-19:22:29.447334 4852 DBG  [FileFingerprint::genfingerprint] FA debug fp: 15728640:1715977949:d4e5f60718293456:1 [filefingerprint.cpp:88]
+05/17-19:22:29.461001 4852 DBG  CURLMSG_DONE gfs244n132.userstorage.mega.co.nz - 203.0.113.45 result=0 [http.cpp:774]
+05/17-19:23:07.112900 4852 DBG  Verifying upload: C:\Users\jsmith\Desktop\Board_Meeting_Notes_Q2.docx [transfer.cpp:1089]
+[FRAGMENT - fingerprint line not recovered - size will be absent for this entry]
+05/17-19:23:31.334812 4852 INF  session authenticated principal=jsmith@acmecorp.com status=OK
+05/17-19:23:31.334900 4852 DBG  network address detected 10.0.1.47 [net.cpp:221]
+05/17-19:23:55.112984 4852 DBG  MegaRecursiveOperation finished subtransfers: 47 of 47 [megaapi_impl.cpp:8821]
+05/17-19:23:55.221002 4852 DBG  MEGAsync sync session complete [megaapp.cpp:2104]

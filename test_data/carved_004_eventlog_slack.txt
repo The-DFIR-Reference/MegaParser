@@ -1,0 +1,18 @@
+LfLe    "                              System
+ElfChnk          B              B   P           p   x       I  
+<EventID>4624</EventID><TimeCreated SystemTime="2024-05-17T18:44:02.112Z"/>
+<Channel>Security</Channel><Computer>WORKSTATION-07</Computer>
+<EventID>4688</EventID><TimeCreated SystemTime="2024-05-17T18:58:33.774Z"/>
+<EventData><Data Name="NewProcessName">C:\Program Files\MEGAsync\MEGAsync.exe</Data>
+<Data Name="CommandLine">MEGAsync.exe --reboot</Data></EventData>
+<<<<SLACKSPACE_BOUNDARY>>>>
+05/17-19:16:55.334900 4852 DBG  Verifying upload: D:\Projects\SourceCode\proprietary_algo_v2.py [transfer.cpp:1089] 05/17-19:16:55.441334 4852 DBG  [FileFingerprint::genfingerprint] FA debug fp: 28672:1715977815:a1b2c3d4e5f60123:1 [filefingerprint.cpp:88]
+05/17-19:16:55.452001 4852 DBG  CURLMSG_DONE gfs391n7.userstorage.mega.co.nz - 192.0.2.188 result=0 [http.cpp:774]
+05/17-19:17:31.221400 4852 DBG  Verifying upload: D:\Projects\SourceCode\neural_net_weights_final.h5 [transfer.cpp:1089] 05/17-19:17:31.334112 4852 DBG  [FileFingerprint::genfingerprint] FA debug fp: 524288000:1715977851:b2c3d4e5f6071234:1 [filefingerprint.cpp:88]
+05/17-19:17:31.348001 4852 DBG  CURLMSG_DONE gfs391n7.userstorage.mega.co.nz - 192.0.2.188 result=0 [http.cpp:774]
+05/17-19:18:04.334300 4852 DBG  Transfer (UPLOAD) finished with error: Access denied File: db_credentials.env [megaapi_impl.cpp:5534]
+05/17-19:18:16.442001 4852 DBG  Verifying upload: D:\Projects\SourceCode\customer_data_export.csv [transfer.cpp:1089] 05/17-19:18:16.554334 4852 DBG  [FileFingerprint::genfingerprint] FA debug fp: 73400320:1715977896:c3d4e5f607182345:1 [filefingerprint.cpp:88]
+05/17-19:18:16.568001 4852 DBG  CURLMSG_DONE gfs391n7.userstorage.mega.co.nz - 192.0.2.188 result=0 [http.cpp:774]
+05/17-19:18:40.003812 4852 DBG  transfer->name = D:\Projects\SourceCode\build_pipeline_config.json [megaapi_impl.cpp:5502] finished with error -2 [megaapi_impl.cpp:5518]
+05/17-19:19:01.112774 4852 DBG  finished with error [megaapi_impl.cpp:5518]
+05/17-19:19:28.334812 4852 DBG  MegaRecursiveOperation finished subtransfers: 38 of 47 [megaapi_impl.cpp:8821]

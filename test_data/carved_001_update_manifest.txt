@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UpdateManifest version="2.1" xmlns="urn:schemas-microsoft-com:update">
+  <Identity UpdateID="8a4f3b2c-19de-4a77-b3c1-f2e0d8a9c4b5" RevisionNumber="1"/>
+  <Properties UpdateType="Software" ExplicitlyDeployable="true"/>
+  <Relationships>
+    <Prerequisites>
+      <UpdateIdentity UpdateID="1c4b3a2d-8e7f-4c5b-a9d0-e1f2b3c4d5e6" RevisionNumber="205"/>
+    </Prerequisites>
+  </Relationships>
+  <ApplicabilityRules>
+    <IsInstalled><b.WindowsVersion Comparison="GreaterThanOrEqualTo" MajorVersion="10"/></IsInstalled>
+  </ApplicabilityRules>
+</UpdateManifest>
+<<<<SLACKSPACE_BOUNDARY>>>>
+05/17-19:08:12.004421 4852 DBG  MegaClient::login attempt for session resume [megaclient.cpp:1204]
+05/17-19:08:12.118774 4852 DBG  session resume successful [megaclient.cpp:1289]
+05/17-19:08:12.223001 4852 DBG  megaclient_statecache transaction open [db.cpp:442]
+05/17-19:08:12.223980 4852 DBG  megaclient_statecache commit [db.cpp:491]
+05/17-19:08:14.331204 4852 DBG  MegaRecursiveOperation finished subtransfers: 0 of 47 [megaapi_impl.cpp:8821]
+05/17-19:09:41.887301 4852 DBG  Verifying upload: C:\Users\jsmith\Documents\Finance\Q1_Budget_2024.xlsx [transfer.cpp:1089] 05/17-19:09:41.990112 4852 DBG  [FileFingerprint::genfingerprint] FA debug fp: 2457600:1715977781:a3f9c2e1d8b74056:1 [filefingerprint.cpp:88]
+05/17-19:09:42.001844 4852 DBG  CURLMSG_DONE gfs244n132.userstorage.mega.co.nz - 203.0.113.45 result=0 [http.cpp:774]
+05/17-19:10:14.229388 4852 DBG  Verifying upload: C:\Users\jsmith\Documents\Finance\Q2_Budget_2024.xlsx [transfer.cpp:1089] 05/17-19:10:14.341209 4852 DBG  [FileFingerprint::genfingerprint] FA debug fp: 3014656:1715977894:b7e2d1f0a9c83412:1 [filefingerprint.cpp:88]
+05/17-19:10:14.355001 4852 DBG  CURLMSG_DONE gfs244n132.userstorage.mega.co.nz - 203.0.113.45 result=0 [http.cpp:774]
+05/17-19:10:51.009900 4852 DBG  Verifying upload: C:\Users\jsmith\Documents\Finance\Annual_Report_DRAFT_v3.docx [transfer.cpp:1089] 05/17-19:10:51.118774 4852 DBG  [FileFingerprint::genfingerprint] FA debug fp: 892928:1715977851:c4d1e8f2b3a07965:1 [filefingerprint.cpp:88]
+05/17-19:10:51.130022 4852 DBG  CURLMSG_DONE gfs244n132.userstorage.mega.co.nz - 203.0.113.45 result=0 [http.cpp:774]
+05/17-19:11:14.442001 4852 DBG  MegaRecursiveOperation finished subtransfers: 3 of 47 [megaapi_impl.cpp:8821]
+05/17-19:12:01.881234 4852 INF  session authenticated principal=jsmith.exfil@protonmail.com status=OK

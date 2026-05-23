@@ -1,0 +1,16 @@
+MZ      @ !  L!This program cannot be run in DOS mode.
+PE  L      ]O        .text    `.rdata   @  .data    @  .reloc   @  B
+RichN       .textP          `.rdataH  @  @@.data   @  @.relocd  @  B
+KERNEL32.dll  ntdll.dll  msvcrt.dll
+GetProcAddress  LoadLibraryW  FreeLibrary  CloseHandle  CreateFileW
+ReadFile  WriteFile  GetLastError  SetLastError  VirtualAlloc
+ExitProcess  GetModuleHandleW  HeapAlloc  HeapFree
+<<<<SLACKSPACE_BOUNDARY>>>>
+05/17-19:13:22.119001 4852 DBG  Transfer (UPLOAD) finished with error: Access denied File: NDA_TechCorp_2023.pdf [megaapi_impl.cpp:5534]
+05/17-19:13:22.231884 4852 DBG  Transfer (UPLOAD) finished with error: Access denied File: NDA_PartnerCo_2024.pdf [megaapi_impl.cpp:5534]
+05/17-19:13:40.881300 4852 DBG  Verifying upload: \\FILESERVER01\Legal\Contracts\MSA_GlobalVendor_Executed.pdf [transfer.cpp:1089] 05/17-19:13:40.994112 4852 DBG  [FileFingerprint::genfingerprint] FA debug fp: 5242880:1715977820:d9e3f1c2a0b48537:1 [filefingerprint.cpp:88]
+05/17-19:13:41.002001 4852 DBG  CURLMSG_DONE gfs107n89.userstorage.mega.co.nz - 198.51.100.22 result=0 [http.cpp:774]
+05/17-19:14:19.334201 4852 DBG  transfer->name = \\FILESERVER01\Legal\IP\Patent_Application_Draft.docx [megaapi_impl.cpp:5502] finished with error -3 [megaapi_impl.cpp:5518]
+05/17-19:14:29.441999 4852 DBG  Verifying upload: \\FILESERVER01\Legal\IP\Trademark_Filing_2024.docx [transfer.cpp:1089] 05/17-19:14:29.554112 4852 DBG  [FileFingerprint::genfingerprint] FA debug fp: 1048576:1715977869:e0f4a2b1c3d58796:1 [filefingerprint.cpp:88]
+05/17-19:14:29.568001 4852 DBG  CURLMSG_DONE gfs107n89.userstorage.mega.co.nz - 198.51.100.22 result=0 [http.cpp:774]
+05/17-19:14:55.003812 4852 DBG  MegaRecursiveOperation finished subtransfers: 8 of 47 [megaapi_impl.cpp:8821]
